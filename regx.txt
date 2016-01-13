@@ -1,0 +1,3 @@
+logfilterregex : (\[[0-9: ]*\])   \\ Filters just ID combination form commit 
+loglinkregex : (\[[0-9 :]*\])  \\ makes links from all between [&]
+logregex: \[\s{0,}([0-9]*)\s{0,}:\s{0,}[0-9]*\s{0,}\]  \\ Select just BUGID for PTC
